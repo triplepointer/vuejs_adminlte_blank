@@ -1,5 +1,9 @@
 # vuejs_adminlte_blank
 
+Залито на https://peaceful-basin-36634.herokuapp.com/
+
+git push heroku main
+
 ## Project setup
 ```
 yarn install
