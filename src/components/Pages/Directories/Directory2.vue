@@ -70,9 +70,9 @@ import ContentWrapper from '@/components/Wrappers/ContentWrapper';
 // Styles
 // Google Font: Source Sans Pro
 // Font Awesome
-import FontAwesome from "@/../node_modules/admin-lte/plugins/fontawesome-free/css/all.min.css";
+// import FontAwesome from "@/../node_modules/admin-lte/plugins/fontawesome-free/css/all.min.css";
 // Theme style
-import AdminLTECSS from "@/../node_modules/admin-lte/dist/css/adminlte.min.css"
+// import AdminLTECSS from "@/../node_modules/admin-lte/dist/css/adminlte.min.css"
 
 // Scripts
 

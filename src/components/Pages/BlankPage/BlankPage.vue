@@ -1,9 +1,4 @@
 <template>
-<!-- <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Blank Page</title>
-</head> УЗНАТЬ ПРО ЭТО-->
 <Wrapper>
   <Navbar/>
   <MainSidebar/>
@@ -63,18 +58,11 @@ import ControlSidebar from '@/components/Sidebars/ControlSidebar/ControlSidebar'
 import ContentWrapper from '@/components/Wrappers/ContentWrapper';
 // Styles
 // Google Font: Source Sans Pro
-// Font Awesome
-import FontAwesome from "@/../node_modules/admin-lte/plugins/fontawesome-free/css/all.min.css";
-// Theme style
-import AdminLTECSS from "@/../node_modules/admin-lte/dist/css/adminlte.min.css"
-
-// Scripts
-
-// jQuery
+// // jQuery
 import jQuery from "@/../node_modules/admin-lte/plugins/jquery/jquery.min.js"
-// Bootstrap 4
+// // Bootstrap 4
 import BootstrapJS from "@/../node_modules/admin-lte/plugins/bootstrap/js/bootstrap.bundle.min.js"
-// AdminLTE App
+// // AdminLTE App
 import AdminLTEApp from  "@/../node_modules/admin-lte/dist/js/adminlte.min.js"
 
 export default {

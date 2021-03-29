@@ -1,5 +1,5 @@
 <template>
-    <table class="table table-bordered">
+    <table class="table table-bordered" :id="id">
         <thead>
             <slot name="head"></slot>
         </thead>
@@ -12,6 +12,7 @@
 <script>
 export default {
     name: "BorderedTable",
+    props: ['id'],
 }
 </script>
 

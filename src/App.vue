@@ -5,6 +5,12 @@
 </template>
 
 <script>
+// Font Awesome
+import FontAwesome from "@/../node_modules/admin-lte/plugins/fontawesome-free/css/all.min.css";
+// Theme style
+import AdminLTECSS from "@/../node_modules/admin-lte/dist/css/adminlte.min.css"
+
+// Scripts
 export default {
   name: 'App',
   components: {

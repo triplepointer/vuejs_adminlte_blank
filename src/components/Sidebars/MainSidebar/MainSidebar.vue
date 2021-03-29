@@ -9,7 +9,7 @@
         <NavItemWithTree :icon="iconNavItemTree">
           <template v-slot:header>Справочники</template>
           <template v-slot:simple-nav-items>
-            <NavItemSimple link="/directory1">Справочник 1</NavItemSimple>
+            <NavItemSimple link="/directory1">Справочник 1555</NavItemSimple>
             <NavItemSimple link="/directory2">Справочник 2</NavItemSimple>
             <NavItemSimple link="/directory3">Справочник 3</NavItemSimple>
           </template>
