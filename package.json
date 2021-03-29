@@ -11,6 +11,7 @@
     "admin-lte": "^3.1.0",
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
+    "eslint-plugin-unicorn": "^29.0.0",
     "vue": "^2.6.11",
     "vue-router": "^3.5.1"
   },
@@ -37,7 +38,14 @@
     },
     "rules": {
       "no-unused-vars": "off",
-      "no-undef": "off"
+      "no-undef": "off",
+      "no-func-assign":"off",
+      "no-empty":"off",
+      "no-useless-escape":"off",
+      "no-redeclare":"off",
+      "no-control-regex":"off",
+      "no-prototype-builtins":"off",
+      "no-self-assign":"off"
     }
   },
   "browserslist": [
