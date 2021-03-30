@@ -39,13 +39,16 @@
     "rules": {
       "no-unused-vars": "off",
       "no-undef": "off",
-      "no-func-assign":"off",
-      "no-empty":"off",
-      "no-useless-escape":"off",
-      "no-redeclare":"off",
-      "no-control-regex":"off",
-      "no-prototype-builtins":"off",
-      "no-self-assign":"off"
+      "no-func-assign": "off",
+      "no-empty": "off",
+      "no-useless-escape": "off",
+      "no-redeclare": "off",
+      "no-control-regex": "off",
+      "no-prototype-builtins": "off",
+      "no-self-assign": "off",
+      "no-invalid-this":"off",
+      "no-mixed-spaces-and-tabs":"off",
+      "max-statements":"off"
     }
   },
   "browserslist": [

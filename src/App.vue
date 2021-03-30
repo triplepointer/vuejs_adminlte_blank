@@ -5,12 +5,17 @@
 </template>
 
 <script>
-// Font Awesome
-import "@/../node_modules/admin-lte/plugins/fontawesome-free/css/all.min.css";
-// Theme style
-import "@/../node_modules/admin-lte/dist/css/adminlte.min.css"
+// Google Font: Source Sans Pro
 
-// Scripts
+// Font Awesome 
+import "@/assets/styles//fontawesome-free/css/all.min.css"
+//DataTables
+import "@/assets/styles//datatables-bs4/css/dataTables.bootstrap4.min.css"
+import "@/assets/styles//datatables-responsive/css/responsive.bootstrap4.min.css"
+import "@/assets/styles//datatables-buttons/css/buttons.bootstrap4.min.css"
+// Theme style
+import "@/assets/styles/admin-lte-css/adminlte.min.css"
+
 export default {
   name: 'App',
   components: {
@@ -19,4 +24,5 @@ export default {
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback");
 </style>

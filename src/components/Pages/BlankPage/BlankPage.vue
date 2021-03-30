@@ -56,16 +56,6 @@ import Navbar from '@/components/Navbar/Navbar';
 import Wrapper from '@/components/Wrappers/Wrapper';
 import ControlSidebar from '@/components/Sidebars/ControlSidebar/ControlSidebar';
 import ContentWrapper from '@/components/Wrappers/ContentWrapper';
-// // jQuery
-import jQuery from "@/assets/scripts/blank-page/jquery/jquery.min.js";
-import {MainFunctionJquery, ArgumentsMainFunctionJquery} from "@/assets/scripts/blank-page/jquery/jqueryModule.js";
-// // Bootstrap 4
-import {MainBootstrapFunction, ArgumentsMainBootstrapFunction} from "@/assets/scripts/blank-page/bootstrap/js/bootstrap.bundle.module.js"
-// // AdminLTE App
-import {MainFunctionAdminLTEApp, ArgumentsMainFunctionAdminLTEApp} from "@/assets/scripts/blank-page/admin-lte-script/adminlte.module.js"
-// AdminLTEDemo
-import DemoControlSidebarFunction from "@/assets/scripts/blank-page/admin-lte-script/demo.module.js"
-
 export default {
   name: 'BlankPage',
   components: {
@@ -77,10 +67,6 @@ export default {
     ContentWrapper,
   },
   mounted() {
-    MainFunctionJquery(...ArgumentsMainFunctionJquery);
-    MainBootstrapFunction(...ArgumentsMainBootstrapFunction);
-    MainFunctionAdminLTEApp(...ArgumentsMainFunctionAdminLTEApp);
-    DemoControlSidebarFunction(jQuery);
   }
 }
 </script>

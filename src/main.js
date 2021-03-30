@@ -8,6 +8,27 @@ import Directory3 from "@/components/Pages/Directories/Directory3.vue";
 
 Vue.config.productionTip = false;
 
+import $ from "@/assets/scripts/directory1/jquery.module.js";
+
+window.$ = window.jQuery = $;
+
+if(window.jQuery && window.$) { 
+  const BootstrapBundleFunction = require("@/assets/scripts/directory1/bootstrap.bundle.module.js");
+  const DataTable = require("@/assets/scripts/directory1/jquery.dataTables.module.js");
+  const dataTablesBootstrap4Function = require("@/assets/scripts/directory1/dataTables.bootstrap4.module.js");
+  const dataTablesRespFunction = require("@/assets/scripts/directory1/dataTables.responsive.module.js");
+  const respBootstrap4Function = require("@/assets/scripts/directory1/responsive.bootstrap4.module.js");
+  const dataTablesButtonsFunction = require("@/assets/scripts/directory1/dataTables.buttons.module.js");
+  const bootstrapButtonsFunction = require("@/assets/scripts/directory1/buttons.bootstrap4.module.js");
+  const jszipFunction = require("@/assets/scripts/directory1/jszip.module.js");
+  const pdfmakeFunction = require("@/assets/scripts/directory1/pdfmake.module.js");
+  const vfsFontsFunction = require("@/assets/scripts/directory1/vfs_fonts.module.js");
+  const buttonsHTML5Function = require("@/assets/scripts/directory1/buttons.html5.module.js");
+  const buttonsPrintFunction = require("@/assets/scripts/directory1/buttons.print.module.js");
+  const colVisButtonsFunction = require("@/assets/scripts/directory1/buttons.colVis.module.js");
+  const AdminLTEAppFunction = require("@/assets/scripts/directory1/adminlte.module.js");
+}
+
 Vue.use(VueRouter);
 
 const routes = [

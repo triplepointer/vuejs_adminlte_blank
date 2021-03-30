@@ -3,12 +3,11 @@
   * Copyright 2011-2021 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
   */
-export let MainBootstrapFunction = function (global, factory) {
+(function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('jquery')) :
   typeof define === 'function' && define.amd ? define(['exports', 'jquery'], factory) :
   (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.bootstrap = {}, global.jQuery));
-};
-export let ArgumentsMainBootstrapFunction = [this, function (exports, $) { 'use strict';
+}(this, (function (exports, $) { 'use strict';
 
   function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
@@ -7042,5 +7041,5 @@ export let ArgumentsMainBootstrapFunction = [this, function (exports, $) { 'use 
 
   Object.defineProperty(exports, '__esModule', { value: true });
 
-}];
+})));
 //# sourceMappingURL=bootstrap.bundle.js.map
